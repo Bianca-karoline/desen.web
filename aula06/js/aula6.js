@@ -26,8 +26,8 @@ function clique(){
     document.getElementById('cliques').innerHTML = click
 }
 function sorte(){
-    let s = document.getElementById('num1').value;
-    let s2 = document.getElementById('num2').value;
-    let sorteado = parseInt(Math.random() * (s - s2 + 1) )+s2;
+    let max = parseInt(document.getElementById('max').value) ;
+    let min = parseInt(document.getElementById('min').value);
+    let sorteado = parseInt(Math.random() * (max - min + 1) )+min;
     document.getElementById('n').innerHTML = sorteado;
 }
