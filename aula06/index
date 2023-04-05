@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/aula6.1.js"></script>
+    <title>Aula 06</title>
+</head>
+<body>
+    <div>
+        Digite um número e veja sua tabuada
+    </div>
+    <div>
+        <input type="number" id="numero">
+        <button onclick="tabuada()">Visualizar</button>
+        <div id="resultab"></div>
+    </div>
+    <div>
+        <div>Digite um numero</div>
+        <div>
+            <input type="number" id="imp">
+            <button onclick="impressao()">Imprimir</button>
+            <div id="texto"></div>
+        </div>
+    </div>
+    <div>
+        <p>contador de cliques</p>
+        <button id="botao" onclick="clique()">Clique</button>
+        <p >
+            <span id="cliques">0</span> cliques
+        </p>
+    </div>
+    <div>
+        <h2>Sorteador de número</h2>
+        <p>Selecione o intervalo do sorteio</p>
+        <input type="number" id="num1"><br>
+        <input type="number"  id="num2">
+        <button id="sorte" onclick="sorte()">Sortear</button>
+        <p id="n"></p>
+    </div>
+</body>
+</html>
